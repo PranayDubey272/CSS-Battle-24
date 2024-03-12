@@ -1,19 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-body {
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+body,button{
     color: white;
     margin: 0;
     padding: 0;
-    font-family: "Lora", serif;
+    font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
-    font-weight: 400;
-    font-style: normal;
     background-image: url("https://dl.dropbox.com/scl/fi/pebudf4smasei5agky8sq/wallpaperflare.com_wallpaper.jpg?rlkey=703x05wpspt59c7o58wt6m50n&dl=0");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: larger;
+}
 .container {
     position: relative;
     z-index: 1;
@@ -32,7 +35,7 @@ body {
     position: relative;
     top: 140px;
     left: calc(50% - 70px);
-    border: 2px solid white;
+    border: 6px solid rgb(15, 15, 69);
     z-index: 2;
     object-fit: cover;
 }
@@ -43,20 +46,24 @@ body {
 }
 
 .statss {
-    margin: 10px 23px;
+    margin: 0px 23px;
 }
 
 .socails {
+    margin-top: 30px;
+
     display: flex;
     justify-content: center;
-    margin-top: 20px;
     
+}
+.scl{
+    box-shadow: inset;
 }
 
 .btns {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 button {
@@ -68,6 +75,9 @@ button {
     color: black;
     font-size: 16px;
     cursor: pointer;
+}
+.els{
+    margin-top: 60px;
 }
 .contents{
     margin: 50px 0px;
