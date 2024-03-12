@@ -32,7 +32,7 @@
     color: white;
     border-radius: 5px;
     margin-bottom: 20px;
-    width: auto; /* Adjusted width */
+    width: auto;
 }
 
     .navbar a {
@@ -40,7 +40,7 @@
         text-decoration: none;
         padding: 10px;
         margin: 0 55px;
-        white-space: nowrap; /* Prevent wrapping */
+        white-space: nowrap;
     }
 
     
