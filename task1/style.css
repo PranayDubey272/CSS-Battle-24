@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+::-webkit-input-placeholder { 
+    color: #C45AC8;
+}
+
+    body {
+
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-image: url("https://dl.dropbox.com/scl/fi/b2wml5tw89d3hn5td3eig/peakpx.jpg?rlkey=dvxwem46cwg1qh9kpu4saagtz&dl=0");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .container {
+        margin: 70px auto;
+        width: 50%;
+        background-color: #0A0A4B;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+        .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: auto; /* Adjusted width */
+}
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 55px;
+        white-space: nowrap; /* Prevent wrapping */
+    }
+
+    
+    .navbar a:hover {
+        color: aliceblue;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label, form input, form textarea {
+        margin-bottom: 16px;
+        font-family: "Madimi One", sans-serif;
+font-weight: 400;
+font-style: normal;
+    }
+
+    input[type=text], textarea {
+        width: calc(100% - 24px);
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        background-color: #C45AC8;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        width: 140px;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    input,textarea{
+        
+        background-color: #464691;
+    }
+    .Name{
+        display: flex;
+         justify-content: space-between;
+    }
+    .Name2{
+        display: flex;
+         justify-content: space-between;
+    }
+    .containerchild{
+        display: flex;
+         justify-content: space-between;
+    }
+    .contact-info{
+        padding-right: 50px;
+    }
+    
