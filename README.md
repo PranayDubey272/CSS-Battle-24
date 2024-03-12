@@ -1,2 +1,2 @@
 # CSS-Battle-24
-This is for the avishkar even CSS-BATTLE-24
+This is for the avishkar event CSS-BATTLE-24
